@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>listadecontactos</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div><h1>lista de contactos</h1></div>
+      <form action="">
+        <div class="id">
+          <h4>id</h4>
+          <input type="number" id="inputId" />
+        </div>
+
+        <div class="Nombre">
+          <h4>Nombre</h4>
+          <input type="text" id="inputNombre" />
+        </div>
+
+        <div class="Apellido">
+          <h4>Apellido</h4>
+          <input type="text" id="inputApellido" />
+        </div>
+
+        <div class="Telefono">
+          <h4>Telefono</h4>
+          <input type="text" id="inputTelefono" />
+        </div>
+
+        <div class="Ciudad">
+          <h4>Ciudad</h4>
+          <input type="text" id="inputCiudad" />
+        </div>
+
+        <div class="Direccion">
+          <h4>Direccion</h4>
+          <input type="text" id="inputDireccion" />
+        </div>
+
+        <div class="AgregarContacto">
+          <button id="BotonAñadir">Añadir</button>
+        </div>
+      </form>
+
+      <div class="container">
+        <h1>Contactos Añadidos</h1>
+        <div class="Contactos">
+          <div class="TablaContactos">
+            <table class="TablaDatos">
+              <thead>
+                <tr>
+                  id
+                </tr>
+                <tr>
+                  Nombre
+                </tr>
+                <tr>
+                  Apellido
+                </tr>
+                <tr>
+                  Telefono
+                </tr>
+                <tr>
+                  Ciudad
+                </tr>
+                <tr>
+                  Direccion
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div id="editarContacto">
+        <div class="ContenidosEditar">
+          <h1>Actualizar Contacto</h1>
+          <form id="EditarForm">
+            <div id="idNueva">
+              <h4>id</h4>
+              <input type="number" id="inputIdNuevo" />
+            </div>
+
+            <div id="NombreNueva">
+              <h4>Nombre</h4>
+              <input type="text" id="inputNombreNuevo" />
+            </div>
+
+            <div id="ApellidoNueva">
+              <h4>Apellido</h4>
+              <input type="text" id="inputApellidoNuevo" />
+            </div>
+
+            <div id="TelefonoNueva">
+              <h4>Telefono</h4>
+              <input type="text" id="inputTelefonoNuevo" />
+            </div>
+
+            <div id="CiudadNueva">
+              <h4>Ciudad</h4>
+              <input type="text" id="inputCiudadNuevo" />
+            </div>
+
+            <div id="DireccionNueva">
+              <h4>Direccion</h4>
+              <input type="text" id="inputDireccionNuevo" />
+            </div>
+
+            
+          </form>
+          <div class="BotonesEditar">
+            <button id="BotonGuardar">Guardar</button>
+            <button id="BotonEditarCancelar">Cancelar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./listadecontactos.js"></script>
+  </body>
+</html>
